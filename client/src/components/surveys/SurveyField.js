@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { reduxForm, Field, touch } from "redux-form";
+import React from "react";
 
 export default ({ input, label, meta: { error, touched } }) => {
   return (
